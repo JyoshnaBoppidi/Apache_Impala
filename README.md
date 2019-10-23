@@ -2,6 +2,7 @@
 ## Link to Slides:
 
 ## Team Members:
+![](https://github.com/JyoshnaBoppidi/Apache_Impala/blob/master/teammembers.PNG)
 
 ## To start Impala:
 - Open the clodera VM and type the command impala-shell.
