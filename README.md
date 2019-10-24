@@ -25,7 +25,7 @@ load data inpath '/user/hive/warehouse/impala_input.txt' into table my_list;
 
 ## Spliting the data into mulitple rows
 
-create table wordCount as select regexp_replace(Name,' ','\n') as word from table my_list;
+create table wordCount as select regexp_replace(Name,' ','\n') as word from my_list;
 
 ## counting wordcount for each word
 
