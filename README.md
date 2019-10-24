@@ -33,3 +33,14 @@ create table wordCount as select regexp_replace(Name,' ','\n') as word from my_l
 ## counting wordcount for each word
 
 select word, count(*) from wordCount group by word order by word; 
+
+## Reference
+
+https://www.tutorialspoint.com/impala/index.htm
+
+https://www.simplilearn.com/working-with-hive-and-impala-tutorial
+
+https://www.youtube.com/watch?v=3PgpOZ8SpLA
+
+https://www.educba.com/hive-vs-impala/
+
