@@ -1,5 +1,6 @@
 # Apache_Impala
 ## Link to Slides:
+[Impala Slides](https://docs.google.com/presentation/d/1j797ysLV1gGasFlRr8NAfWPal49MVNxaaPqGIWR9gJg/edit?usp=sharing)
 
 ![](https://github.com/JyoshnaBoppidi/Apache_Impala/blob/master/teammembers.PNG)
 
