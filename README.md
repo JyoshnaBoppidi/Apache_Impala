@@ -34,7 +34,7 @@ create table wordCount as select regexp_replace(Name,' ','\n') as word from my_l
 
 select word, count(*) from wordCount group by word order by word; 
 
-## Reference
+## References
 
 https://www.tutorialspoint.com/impala/index.htm
 
