@@ -1,4 +1,6 @@
 # Apache_Impala
+## Link to the repo: 
+https://github.com/JyoshnaBoppidi/Apache_Impala
 ## Link to Slides:
 [Impala Slides](https://docs.google.com/presentation/d/1j797ysLV1gGasFlRr8NAfWPal49MVNxaaPqGIWR9gJg/edit?usp=sharing)
 
@@ -31,4 +33,3 @@ create table wordCount as select regexp_replace(Name,' ','\n') as word from my_l
 ## counting wordcount for each word
 
 select word, count(*) from wordCount group by word order by word; 
-
